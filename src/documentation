@@ -1,0 +1,42 @@
+
+Main
+
+Controller
+M: movePiece(),
+    Check if there is a value already in there-> True/False
+    UpdateState(o: a2, n: g2)
+
+Chessboard =
+chessboard [8][8]
+boardRender()
+forEach -> create a new []
+forEach -> create a new []
+
+ChessPieceClass
+   String pieceLabel;  Move the files
+   Int maxMove
+   Int minMove
+
+RookClass
+pieceLabel = "Rook"
+maxMove = chessboard.length - currentStatus
+minMove = userInput if less than chessboard.length
+
+KnightClass
+pieceLabel = "knight"
+maxMove = c
+
+BishopClass
+pieceLabel = "Bishop"
+
+KingClass
+pieceLabel ="King"
+
+QueenClass
+pieceLabel = "Queen"
+
+
+M: InCheck()
+Check if pieces are near king and if he is in check.
+
+
